@@ -1,6 +1,6 @@
 [component]
 name = "SigmaOS-plymouth"
 tier = 2
-description = "Boot splash screen graphical animation and password prompt subsystem using DRM/KMS"
+description = "Boot splash / plymouth theme manager"
 contracts = ['plymouth-splash', 'drm-kms-splash', 'passphrase-prompt-shim']
 upstream_inspirations = ['https://github.com/linuxmint/plymouth']
