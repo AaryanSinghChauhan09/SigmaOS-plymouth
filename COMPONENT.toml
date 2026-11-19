@@ -4,3 +4,7 @@ tier = 2
 description = "Boot splash / plymouth theme manager"
 contracts = ['plymouth-splash', 'drm-kms-splash', 'passphrase-prompt-shim']
 upstream_inspirations = ['https://github.com/linuxmint/plymouth']
+[maturity]
+status = "Implemented"
+test_evidence = "5 tests (4 unit + 1 integration) passing with cargo test --offline"
+next_milestone = "Hardware and runtime integration"
